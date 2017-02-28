@@ -1,0 +1,254 @@
+/* * {
+  border: 1px dashed #3A5FCD;
+} */
+
+body {
+  background-color: #111;
+  /* margin: 0 auto; */
+}
+
+#topBlock_Headers, #header1, #header2, #centralBlock1_Outer, #centralBlock1_Inner, #slideBorder, #border1, #slides, .eachSlide, .arrows, #centralBlock2, #block_Headshot_Bio, #headshot, #biog, #footerBlock, #footer, #footerTextBox {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#topBlock_Headers, #header1, #header2 {
+  height: 120px;
+  width: 1120px;
+}
+
+#topBlock_Headers {
+  background-color: #0e2610;
+}
+
+#header1, #header2, #headerText {
+  position: relative;
+}
+
+#header2 {
+  background-color: #17aa1c; 
+  top: 10px;
+  width: 650px;
+  height: 100px;
+}
+
+#headerText { 
+  top: -.75em ;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 4.5em;
+  color: #a1fca7;
+  -webkit-text-stroke: 2px #098211;
+  text-decoration: none;
+}
+
+#centralBlock1_Outer {
+  background-color: #0e1726;
+  height: 780px;
+  width: 1120px;
+}
+
+#centralBlock1_Inner {
+  height: 780px;
+  width: 1060px;
+}
+
+#slideBorder, #border1, #slides, .eachSlide, .arrows, #slideTextBox, .eachSlideText, #infoButton, .nextAndBack {
+  position: relative;
+}
+
+#slideBorder {
+  background-color: #272c4c;
+  top: 30px;
+  height: 720px;
+  width: 720px;    
+}
+
+#border1 {
+  display: block;
+  /*background-color: yellow;*/
+  /*top: 0px;*/
+  height: 720px;
+  width: 720px;  
+}
+
+#slides {
+  display: block;
+  background-color: #111;
+  top: -615px;
+  width: 510px;
+  height: 510px;   
+}
+
+.eachSlide {
+  display: block;
+  width: 510px;
+  height: 510px;  
+}
+
+/*#slides:hover {
+  filter: brightness(130%);
+}*/
+
+#slideTextBox {
+  display: block;
+  text-align: center;
+  z-index: 50;
+  top: -510px;
+  width: 510px;
+  height: 140px;
+}
+
+.eachSlideText { 
+  visibility: hidden;
+  position: absolute;
+  color: #043d07;
+  -webkit-text-stroke: 1px #a4f442;
+  /*color: #a4f442;
+  -webkit-text-stroke: 2px #06590b;*/
+  font-size: 4.6em;
+  text-weight: 900;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  left: 0px;
+  width: 510px;
+}
+
+#infoButton {
+  display: block;
+  z-index: 200;
+  background-color: #42d3f7;
+  border-radius: 60px;
+  padding: 20px;
+  top: -84px;
+  left: 450px;
+  width: 116px;
+  height: 32px;
+  text-align: center;
+}
+
+#infoButton:hover {
+  background-color: #41f7bd;
+}
+
+#infoLink {
+  color: blue;
+  font-size: 1.2em;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.arrows {
+  display: inline-block;
+  background-color: #bf42f4;
+  top: -440px;
+  width: 140px;
+  height: 140px; 
+  text-align: center;
+  font-size: 7.5em;
+}
+
+.arrows:hover {
+  background-color: #e841f4;
+}
+
+.nextAndBack {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  top: -16px;
+  left: 44px;
+  text-align: center;
+  font-size: .2em;
+  font-weight: 700;
+  color: blue;  
+}
+
+#leftArrowLink, #rightArrowLink {
+  text-decoration: none;
+}
+
+#leftArrow {  
+  left: 18px;
+}
+
+#rightArrow {  
+  left: 758px;  
+}
+
+#centralBlock2 {
+  background-color: #0e1726;
+  height: 180px;
+  width: 1120px;
+}
+
+#block_Headshot_Bio, #headshot, #profileImg, #biog, #bioText {
+  position: relative;
+}
+
+#block_Headshot_Bio {
+  /*background-color: green;*/
+  height: 160px;
+  /*padding: 0px;*/
+}
+
+#headshot {
+  background-color: red;
+  width: 160px;
+  height: 160px;
+  left: -170px;  
+}
+
+#profileImg {
+  width: 150px;
+  height: 150px;
+  top: 5px;
+  left: 5px;
+}
+
+#biog { 
+  /*background-color: yellow;*/
+  height: 60px;
+  width: 380px;
+  top: -110px;
+  left: 120px;
+}
+
+#bioText {
+  color: yellow;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#footerBlock, #footer, #footerTextBox, .name_Date {
+  position: relative;
+}
+
+#footerBlock {
+  background-color: #0e2610;
+  height: 120px;
+  width: 1120px;
+}
+
+#footer {
+  background-color: #17aa1c;
+  top: 10px;
+  width: 650px;
+  height: 100px;
+}
+
+#footerTextBox {
+  /*background-color: yellow;*/
+  width: 450px;
+  height: 60px;  
+  top: 60px;
+  text-align: center;
+}
+
+.name_Date {
+  display: inline;
+  color: blue;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center; 
+}
